@@ -45,7 +45,7 @@ dependencies {
     implementation ("com.google.code.gson:gson:2.8.9")
 
 
-    implementation ("com.google.guava:guava:18.0")
+    implementation ("com.google.guava:guava:32.1.3-jre")
 
     implementation ("com.fasterxml.jackson.core:jackson-databind:2.8.11")
 
