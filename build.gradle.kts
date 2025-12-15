@@ -12,10 +12,6 @@ repositories {
     mavenCentral()
 }
 
-ext {
-    set("springFrameworkVersion", "5.3.34")
-}
-
 tasks.register("downloadNewrelic") {
     doLast {
             val newrelicDir = file("newrelic")
